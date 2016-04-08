@@ -1,0 +1,25 @@
+https://thinkster.io/mean-stack-tutorial#jumping-in-with-angular
+
+factory is a service that operates as a singleton: data put into it is available anywhere
+angular's inline templates
+
+when make a new state in config(), need to a new controller and template for it
+
+$stateParams info:
+    https://github.com/angular-ui/ui-router/wiki/Quick-Reference#stateparams-1
+    https://github.com/angular-ui/ui-router/wiki/URL-Routing#stateparams-service
+    http://tommytan.azurewebsites.net/angularjs-sending-data-between-states/
+
+$stateParams stores info about a url
+
+ng-show:
+https://scotch.io/tutorials/how-to-use-ngshow-and-nghide
+
+ngShow and ngHide allow us to display or hide different elements.
+This helps when creating Angular apps since our single page applications will
+most likely have many moving parts that come and go as the state of our application changes.
+
+<!-- when $scope.myValue is truthy (element is visible) -->
+<div ng-show="myValue"></div>
+
+<a> tag html: it's an anchor element that defines a hyperlink to a location
